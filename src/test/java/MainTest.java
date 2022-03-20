@@ -21,6 +21,6 @@ public class MainTest {
     @Test
     public void testSumError(){
         Main main = new Main();
-        assertEquals(3, main.sum(2,6));
+        assertEquals(8, main.sum(2,6));
     }
 }
